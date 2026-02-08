@@ -1,0 +1,600 @@
+/*Start Global style*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+
+
+}
+
+.clear-float {
+    clear: both;
+}
+
+.Home,
+.who,
+.Location,
+.Gallery,
+.Contact,
+.last {
+    padding: 90px 0;
+
+}
+
+/*End Global style*/
+
+/*Start NAV style*/
+nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 80px;
+    top: 0;
+
+
+}
+
+.logo {
+    float: left;
+    width: 45%;
+}
+
+.logo img {
+    height: 50px;
+    margin-top: 15px;
+
+}
+
+.nav-links {
+    float: right;
+
+    width: 49%;
+    text-align: end;
+    margin-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-links a {
+    color: black;
+    margin-left: 20px;
+    padding: 20px;
+
+
+}
+
+/*End NAV style*/
+/*Start Home style*/
+.Home {
+    background-image: url("../image/home.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 30vh;
+
+    position: relative;
+}
+
+.firstP {
+    color: rgba(255, 255, 255, .92);
+    margin-bottom: 5px;
+
+    line-height: 1.86em;
+    font: 30px "Alegreya Sans";
+}
+
+.Home h1 {
+    color: #fff;
+    margin: 18px;
+    line-height: 1.2em;
+    font: 100px "Alegreya";
+    position: relative;
+}
+
+.sP {
+    font-size: 24px;
+    color: rgba(255, 255, 255, .92);
+    font-size: 24px;
+}
+
+.one-btn button {
+    padding: 15px 28px;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.b1 {
+    background-color: #8e7754;
+    text-align: center;
+    border: none;
+
+}
+
+.b2 {
+    background-color: transparent;
+    border: 2px solid;
+    color: #fff;
+}
+
+.Home .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Home header {
+    position: relative;
+    z-index: 2;
+}
+
+.Home .layer {
+    z-index: 1;
+}
+
+/*End Home style*/
+/*Start Who page style*/
+.who {
+    background-color: white;
+
+}
+
+.who figure {
+    float: left;
+    width: 45%;
+}
+
+.who img {
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+}
+
+.about {
+    float: right;
+    width: 45%;
+
+
+}
+
+.about h2 {
+    font-size: 42px;
+
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+}
+
+.about p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgb(104, 104, 104);
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+
+.points {
+    margin-top: 35px;
+    padding-left: 20px;
+
+}
+
+.points li {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    line-height: 1.6;
+    font-family: "Alegreya Sans";
+
+}
+
+/*End Who page style*/
+/*Start Location page style*/
+
+.Location {
+    background: #f8f8f8;
+
+
+}
+
+.Location figure {
+    float: right;
+    width: 45%;
+
+
+}
+
+.Location img {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 45px;
+}
+
+.Location .text {
+    float: left;
+    width: 45%;
+
+
+
+}
+
+.Location h3 {
+    font-size: 32px;
+    margin-bottom: 25px;
+
+    margin-left: 17px;
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+
+}
+
+.Location p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+    margin-left: 17px;
+}
+
+/*End Location page style*/
+/*Start Gallery page style*/
+.Gallery {
+    text-align: center;
+
+}
+
+.Gallery-desc {
+    margin-bottom: 50px;
+    color: #777;
+}
+
+.four-p {
+    color: #777;
+}
+
+.baking-items {
+    overflow: hidden;
+}
+
+
+.baking-item {
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.baking-item img {
+    width: 100%;
+    height: auto;
+}
+
+.baking-item h5 {
+    margin: 20px 0 10px;
+    font-size: 22px;
+    font-family: "Alegreya";
+    text-align: center;
+
+}
+
+.baking-item p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.Gallery h4 {
+    font-size: 42px;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+
+
+}
+
+/*End Gallery page style*/
+/*Start Contact page style*/
+.Contact {
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.map {
+    float: right;
+    width: 45%;
+    margin-top: 35px;
+    margin-right: 45px;
+
+    height: 80%;
+}
+
+.Contact h6 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-top: 110px;
+    margin-left: 50px;
+    font-family: "Alegreya";
+    color: #303030;
+    line-height: 1.38em;
+    font-weight: 400;
+
+}
+
+.Contact p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #555;
+    margin-left: 50px;
+
+
+}
+
+.contact .contact-info {
+    float: left;
+    width: 45%;
+}
+
+
+.points2 li {
+    color: #555;
+    margin-left: 50px;
+    font-family: "Alegreya Sans";
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: "Alegreya Sans";
+}
+
+/*End Contact page style*/
+/*Start footer page style*/
+.footer {
+    background: #403d38;
+    color: #ccc;
+    font-size: 15px;
+}
+
+.top {
+    padding: 70px 0;
+}
+
+.one-C,
+.two-C,
+.three-C,
+.four-C {
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+}
+
+
+
+.footer h4 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.footer p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+
+}
+
+.footer ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #4a4742;
+}
+
+.bottom {
+    background: #353330;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-f img {
+    vertical-align: middle;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.footer-bottom p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.social a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #484540;
+    color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+
+}
+
+.social a .icon {
+    margin-top: 10px;
+
+
+}
+
+.social a:hover {
+
+    color: #fff;
+
+}
+
+.social a:nth-child(1):hover {
+    background: #3b5998;
+
+}
+
+.social a:nth-child(2):hover {
+    background: red;
+
+}
+
+.social a:nth-child(3):hover {
+    background: #007bb5;
+
+}
+
+.social a:nth-child(4):hover {
+    background: #00aced;
+
+}
+
+/*End footer page style*/
+.sitting {
+    position: fixed;
+    right: 0px;
+    padding: 12px;
+    color: #666;
+    background-color: #fff;
+    top: 230px;
+    border-radius: 8px 0 0 8px;
+    height: 10%;
+    z-index: 9999;
+    box-shadow: 0 -1px 17px 1px rgba(0, 0, 0, .09);
+}
+
+.sitting li {
+    display: block;
+    margin: 10px 10px;
+
+
+}
+
+.sitting li:hover {
+    color: #0275d8;
+}
+
+
+a.scrollup {
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    opacity: .5;
+    border-radius: 50%;
+    font-weight: 300;
+}
+
+@media screen  and (max-width:1000px) {
+
+    .who,
+
+    .Gallery
+  {
+        background-color: rgba(0, 0, 0, 0.849);
+
+    }
+
+    .Location ,  .Contact  {
+        background-color: rgba(39, 37, 37, 0.849);
+
+    }
+
+    .about h2,
+    .about p,
+    .baking-item h5,
+    .Gallery-desc,
+    .points li,
+    .Location h3,
+    .Location p,
+    .baking-item p,
+    .Gallery h4,
+    .Contact h6,
+    .Contact p,
+    .points2 li,
+    .four-p,
+    .nav-links a {
+        color: white;
+
+    }
+
+    nav {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .who figure,
+    .Location figure,
+    .Contact figure,
+    .about,
+    .Location .text,
+    .map,
+    .contact,
+    .contact-info {
+        float: none;
+        width: 100%;
+
+
+
+    }
+
+    .clear-float {
+        clear: both;
+    }
+
+    .one-C,
+    .two-C,
+    .three-C,
+    .four-C {
+        width: 65%;
+        float: left;
+
+    }
+
+
+    .baking-item {
+        margin: 0 auto;
+        width: 70%;
+        float: none;
+
+    }
+}
